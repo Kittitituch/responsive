@@ -57,10 +57,24 @@ img, object, embed, video {
 	display: block;
 }
 #LayoutDiv4 {
-	clear: none;
+	clear: both;
 	float: left;
-	margin-left: 4.1666%;
-	width: 58.3333%;
+	margin-left: 0;
+	width: 37.5%;
+	display: block;
+}
+#LayoutDiv5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 37.5%;
+	display: block;
+}
+#LayoutDiv6 {
+	clear: both;
+	float: left;
+	margin-left: 62.5%;
+	width: 79.1666%;
 	display: block;
 }
 
@@ -94,6 +108,20 @@ img, object, embed, video {
 	display: block;
 }
 #LayoutDiv4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv6 {
 	clear: both;
 	float: left;
 	margin-left: 0;
@@ -134,6 +162,20 @@ img, object, embed, video {
 	display: block;
 }
 #LayoutDiv4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv6 {
 	clear: both;
 	float: left;
 	margin-left: 0;
