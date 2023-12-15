@@ -71,10 +71,10 @@ img, object, embed, video {
 	display: block;
 }
 #LayoutDiv6 {
-	clear: both;
+	clear: none;
 	float: left;
-	margin-left: 62.5%;
-	width: 79.1666%;
+	margin-left: 45.8333%;
+	width: 58.3333%;
 	display: block;
 }
 
@@ -151,14 +151,14 @@ img, object, embed, video {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	width: 18.3673%;
 	display: block;
 }
 #LayoutDiv3 {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	width: 18.3673%;
 	display: block;
 }
 #LayoutDiv4 {
