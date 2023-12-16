@@ -1,61 +1,76 @@
-<!doctype html>
-<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
-<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
-<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="">
-<!--<![endif]-->
+<!DOCTYPE html>
+<html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Responsive</title>
-<link href="boilerplate.css" rel="stylesheet" type="text/css">
-<link href="myFluid.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-body {
-	background-color: #9F6;
-	background-image: url();
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+  background-color: #d0d9ff;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {
+  background-color: #d0d9ff;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
 }
 </style>
-<!-- 
-To learn more about the conditional comments around the html tags at the top of the file:
-paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
-
-Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
-* insert the link to your js here
-* remove the link below to the html5shiv
-* add the "no-js" class to the html tags at the top
-* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
--->
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-<script src="respond.min.js"></script>
 </head>
-<body>
-<div class="gridContainer clearfix">
-  <div id="LayoutDiv1">
-    <h1><marquee>
-    </marquee></h1>
-    <table width="100%" border="0">
-      <tr>
-        <th width="26%" align="center" valign="middle" bgcolor="#99FFCC" scope="col"><img src="image/logo.png" width="171" height="177"></th>
-        <th width="74%" align="left" valign="top" bgcolor="#99FFCC" scope="col"><marquee>
-        <h1>ยินดีตอนรับสู่เว็บไซต์ของเรา </h1>
-        </marquee>        </th>
-      </tr>
-    </table>
-    <h1>
-      <marquee>
-      </marquee>
-      Technology will change your life.</h1>
+<body style="font-family:Verdana;color:#aaaaaa;">
+
+<div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+  <h1>Hello World This is MyWebsite</h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="profile2.html" target="new">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    <a href="#">Link 4</a>
   </div>
-  <div id="LayoutDiv2"> หน่วยนำเข้า  </div>
-  <div id="LayoutDiv3"> หน่วยประมวลผล  </div>
-  <div id="LayoutDiv4"> หน่วยแสดงผล  </div>
-  <div id="LayoutDiv5"> <a href="profile.html" target="new">ผู้จัดทำ</a>
-    <div id="LayoutDiv6">&quot;เรามีความเชื่อมั่น ว่าในต่อไปข้างหน้า เทคโนโลยี่จะเปลี่ยนแปลงโลกและเปลี่ยนแปลงชีวิตของผู้คนบนโลกนี้&quot;</div>
+
+  <div class="main">
+    <h2>เว็บไซ์นี้เป็นส่วนหนึ่งของรายวิชา ทักษะคอมพิวเตอร์ ระดับชั้นประถมศึกษาปี6</h2>
+    <p>หลังจากที่ได้ศึกษาคำสั่งพื้นฐานของ HTML ไปแล้วก็ได้นำมาทดลองสร้างเป็นเว็บไชต์ของตัวเอง โดยพัฒนาเสริมความรู้ในเรื่องการทำ Responsive และ CSS เข้ามาเพื่อให้เว็บมีความหน้าสนใจขึ้นมาอีกระดับหนึ่ง แต่ยังไม่เพียงพอนะครับ เนื่องจากว่าความรู้ในเรื่องการพัฒนาเว็บไซต์ ได้มีสิ่งใหม่เข้ามาเรื่อย ๆ ก็ต้องติดตามชมกันต่อไปนะครับ สำหรับวันนี้ พอแค่นี้ก่อนนะครับ.</p>
+  </div>
+
+  <div class="right">
+    <h2>About</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
   </div>
 </div>
+
+<div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">© copyright w3schools.com</div>
+
 </body>
 </html>
