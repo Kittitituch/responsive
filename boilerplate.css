@@ -63,7 +63,10 @@ a:hover { color: #06e; }
 a:focus { outline: thin dotted; }
 
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
-a:hover, a:active { outline: 0; }
+a:hover, a:active {
+	outline: 0;
+	font-size: 14px;
+}
 
 
 /* =============================================================================
@@ -116,10 +119,7 @@ nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0
 
 /*
  * 1. Improve image quality when scaled in IE7: h5bp.com/d
- * 2. Remove the gap between images and borders on image containers: h5bp.com/e 
- */
-
-img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+ * 2. Remove the gap between images animg { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 
 /*
  * Correct overflow not hidden in IE9 
@@ -210,7 +210,12 @@ input:invalid, textarea:invalid { background-color: #f0dddd; }
    Tables
    ========================================================================== */
 
-table { border-collapse: collapse; border-spacing: 0; }
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: 16px;
+	color: #00F;
+}
 td { vertical-align: top; }
 
 

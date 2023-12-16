@@ -5,6 +5,7 @@
 */
 img, object, embed, video {
 	max-width: 100%;
+	font-family: sans-serif;
 }
 /* IE 6 does not support max-width so default to width 100% */
 .ie6 img {
@@ -99,6 +100,7 @@ img, object, embed, video {
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	font-size: 14px;
 }
 #LayoutDiv3 {
 	clear: both;
@@ -106,6 +108,7 @@ img, object, embed, video {
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	font-size: 14px;
 }
 #LayoutDiv4 {
 	clear: both;
@@ -113,6 +116,7 @@ img, object, embed, video {
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	font-size: 14px;
 }
 #LayoutDiv5 {
 	clear: both;
@@ -127,6 +131,8 @@ img, object, embed, video {
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	font-size: 16px;
+	color: #00F;
 }
 }
 
